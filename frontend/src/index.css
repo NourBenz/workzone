@@ -1,0 +1,233 @@
+@import './styles/fonts.css';
+@import './styles/components.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 210 79% 46%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 25 100% 60%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Custom WorkZone colors */
+    --workzone-dark: 222.2 84% 4.9%;
+    --workzone-blue: 221.2 83.2% 53.3%;
+    /* ... keep existing code (other dark mode variables) */
+    --workalley-h2-font-size: 2.25rem;
+    --workalley-h3-font-size: 1.75rem;
+    --workalley-h4-font-size: 1.5rem;
+    --workalley-h5-font-size: 1.25rem;
+    --workalley-h6-font-size: 1rem;
+    --workalley-menu-font-size: 1rem;
+    --workalley-submenu-font-size: 0.95rem;
+
+    /* Line Heights */
+    --workalley-content-line-height: 1.7;
+    --workalley-h1-line-height: 1.1;
+    --workalley-h2-line-height: 1.2;
+    --workalley-h3-line-height: 1.3;
+    --workalley-h4-line-height: 1.3;
+    --workalley-h5-line-height: 1.4;
+    --workalley-h6-line-height: 1.5;
+    --workalley-menu-line-height: 1.5;
+    --workalley-submenu-line-height: 1.5;
+
+    /* Font Weights */
+    --workalley-content-font-weight: 400;
+    --workalley-header-font-weight: 600;
+    --workalley-h1-font-weight: 700;
+    --workalley-h2-font-weight: 600;
+    --workalley-h3-font-weight: 600;
+    --workalley-h4-font-weight: 600;
+    --workalley-h5-font-weight: 500;
+    --workalley-h6-font-weight: 500;
+    --workalley-menu-font-weight: 500;
+    --workalley-submenu-font-weight: 400;
+
+    /* Colors */
+    --workalley-primary-color: #ff5757;
+    --workalley-secondary-color: #1e293b;
+    --workalley-header-font-color: #111111;
+    --workalley-content-color: #333333;
+    --workalley-body-background: #f8fafc;
+    --workalley-footer-heading-color: #fff;
+    --workalley-footer-content-color: #d8d5d5;
+    --workalley-copyright-content-color: #b0b0b0;
+    --workalley-copyright-content-background: #18181b;
+    --workalley-submenu-color: #222;
+    --workalley-submenu-background: #fff;
+    --workalley-submenu-mobile-color: #fff;
+    --workalley-submenu-mobile-background: #222;
+    --workalley-submenu-mobile-overlay: rgba(0,0,0,0.7);
+
+    /* Button Colors */
+    --workalley-button-bg-idle: #ff5757;
+    --workalley-button-bg-hover: #ff7676;
+    --workalley-button-bg-active: #e04a4a;
+    --workalley-button-color-idle: #fff;
+    --workalley-button-color-hover: #fff;
+    --workalley-button-color-active: #fff;
+    --workalley-button-color-idle-rgb: 255,87,87;
+
+    /* Misc */
+    --workalley-bg-caret: none;
+    --workalley-pagetitle-breadcrumbs-bg: #f1f5f9;
+    --workalley-team-grid-gap: 30px;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  a {
+    @apply transition-colors;
+  }
+
+  html, body {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  /* Navbar */
+  .navbar {
+    @apply bg-[rgba(14,14,14,1)] text-white;
+  }
+
+  .navbar-search {
+    @apply bg-[rgba(55,55,57,1)] text-white;
+  }
+
+  /* Buttons */
+  .btn {
+    @apply text-white bg-[#32373c] rounded-full px-6 py-3 text-lg transition-colors;
+  }
+
+  .btn-primary {
+    @apply bg-[#32373c] hover:bg-[#2c3136];
+  }
+
+  .btn-secondary {
+    @apply bg-[#F33F5E] hover:bg-[#e62e4d];
+  }
+
+  /* Cards */
+  .card {
+    @apply bg-white rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.1)] p-8;
+  }
+
+  /* Modals */
+  .modal {
+    @apply bg-white rounded-lg p-5 max-w-[600px] shadow-[0px_20px_40px_rgba(0,0,0,0.2)];
+  }
+
+  /* Footer */
+  .footer {
+    @apply bg-[#f8f9fa] text-[#333] py-10;
+  }
+
+  /* Scroll to top */
+  .scroll-top {
+    @apply fixed bottom-10 right-10 w-10 h-10 bg-[#F33F5E] text-white hidden items-center justify-center rounded-full;
+  }
+
+  .section-container {
+    @apply container mx-auto px-4 md:px-8 py-16 md:py-24;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-gray-900 mb-2;
+  }
+  
+  .section-subtitle {
+    @apply text-lg text-gray-600 mb-12;
+  }
+
+  .btn-outline {
+    @apply border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-medium py-2 px-6 rounded-md transition-colors;
+  }
+}
