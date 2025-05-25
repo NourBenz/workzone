@@ -1,0 +1,5 @@
+@layer components {
+  .footer {
+    @apply bg-[#f8f9fa] text-[#333] py-10;
+  }
+}

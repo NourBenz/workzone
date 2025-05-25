@@ -1,0 +1,9 @@
+@layer components {
+  .navbar {
+    @apply bg-[rgba(14,14,14,1)] text-white;
+  }
+
+  .navbar-search {
+    @apply bg-[rgba(55,55,57,1)] text-white;
+  }
+}

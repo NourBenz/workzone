@@ -1,0 +1,17 @@
+@layer components {
+  .btn {
+    @apply text-white bg-[#32373c] rounded-full px-6 py-3 text-lg transition-colors;
+  }
+
+  .btn-primary {
+    @apply bg-[#32373c] hover:bg-[#2c3136];
+  }
+
+  .btn-secondary {
+    @apply bg-[#F33F5E] hover:bg-[#e62e4d];
+  }
+
+  .btn-outline {
+    @apply border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-medium py-2 px-6 rounded-md transition-colors;
+  }
+}

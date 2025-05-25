@@ -1,0 +1,5 @@
+@layer components {
+  .modal {
+    @apply bg-white rounded-lg p-5 max-w-[600px] shadow-[0px_20px_40px_rgba(0,0,0,0.2)];
+  }
+}
