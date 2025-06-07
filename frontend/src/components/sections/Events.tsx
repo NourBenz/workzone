@@ -25,7 +25,7 @@ const events = [
 
 export const Events: React.FC = () => {
   return (
-    <section className="py-20 px-6 bg-white">
+    <section className="py-20 px-6 bg-white" >
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Événements à venir</h2>
         <p className="text-muted-foreground">

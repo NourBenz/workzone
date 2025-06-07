@@ -4,8 +4,8 @@
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
-    --primary: 210 79% 46%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 0 98% 66%; /* hsl value for #fd5254 */
+  --primary-foreground: 0 0% 100%;
     --secondary: 25 100% 60%;
     --secondary-foreground: 222.2 47.4% 11.2%;
     --muted: 210 40% 96.1%;
