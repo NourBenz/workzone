@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
         </div>
       </div>
       <div className="text-center text-xs text-gray-500 mt-8">
-        © {new Date().getFullYear()} WorkZone. Tous droits réservés.
+        © {new Date().getFullYear()} Copyright © 2024 WorkZone .All Rights Reserved.
       </div>
     </footer>
   )

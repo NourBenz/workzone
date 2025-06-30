@@ -12,11 +12,9 @@ const Home: React.FC = () => {
     <>
       <Hero />
       <CoreValues />
-      <About />
       <Services />
+      <About />
       <Events />
-      <Pricing />
-      
     </>
   )
 }

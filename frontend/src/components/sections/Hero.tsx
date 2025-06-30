@@ -25,9 +25,11 @@ export const Hero: React.FC = () => {
 
         <p className="text-lg text-black/80 mb-8">
           Le partage et l’échange sont notre devise. Rejoignez notre communauté et tentez l’expérience Workzone…</p>
+        <p className="text-lg text-red-500 mb-8">
+          #o7kom_Wahdek</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button variant="default" size="lg">Nos Services</Button>
-          <Button variant="outline" size="lg">Contactez-Nous</Button>
+          <Button variant="default" size="lg">Essai Gratuit</Button>
+          <Button variant="outline" size="lg">Visite virtuelle</Button>
         </div>
       </div>
     </section>

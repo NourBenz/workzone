@@ -9,19 +9,19 @@ const services = [
     image: "/images/coworking.jpg",
   },
   {
-    title: "Private Zone",
-    description: "Des bureaux privés pour plus de confidentialité.",
-    image: "/images/private.jpg",
-  },
-  {
     title: "Meeting Zone",
     description: "Salles de réunion équipées et flexibles.",
-    image: "/images/meeting.jpg",
+    image: "/images/meeting-zone.jpg",
+  },
+  {
+    title: "Private Zone",
+    description: "Des bureaux privés pour plus de confidentialité.",
+    image: "/images/IMG_6237-1024x7681-1.jpg",
   },
   {
     title: "Domiciliation",
     description: "Votre adresse professionnelle clé en main.",
-    image: "/images/domiciliation.jpg",
+    image: "/images/Untitled-1.png",
   },
 ]
 
@@ -31,7 +31,7 @@ export const Services: React.FC = () => {
       <div className="max-w-6xl mx-auto text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Nos Services</h2>
         <p className="text-muted-foreground">
-          Découvrez nos zones de travail adaptées à vos besoins.
+          Trouvez l’espace de travail qui vous inspire
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">

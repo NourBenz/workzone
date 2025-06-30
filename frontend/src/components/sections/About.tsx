@@ -13,19 +13,19 @@ export const About: React.FC = () => {
           />
         </div>
         <div>
-          <span className="text-sm uppercase tracking-widest text-primary font-semibold">WorkZone</span>
+          <span className="text-sm uppercase tracking-widest text-primary font-semibold">Choisissez</span>
           <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-6 leading-snug">
-            Pourquoi choisir WorkZone ?
+            Work Zone
           </h2>
           <p className="text-muted-foreground mb-6">
-            WorkZone est un espace de travail partagé moderne conçu pour favoriser la productivité, la collaboration et l’innovation. Que vous soyez freelance, startup ou entreprise établie, nous avons l’espace qu’il vous faut.
+            Chez Workzone, nous prônons la flexibilité et la proactivité dans tout ce que nous entreprenons. Nos offres peuvent être personnalisées en fonction des besoins et du budget.
           </p>
-          <ul className="space-y-3 text-sm text-gray-700">
-            <li>✅ Bureaux privés & open spaces modernes</li>
-            <li>✅ Internet haut débit & services inclus</li>
-            <li>✅ Ambiance professionnelle et conviviale</li>
-            <li>✅ Accès aux salles de réunion & événements</li>
-          </ul>
+          <p className="text-muted-foreground mb-6">
+            Conçus pour favoriser la productivité et optimiser les performances, nos espaces de travail permettent d’échanger, de prospérer et d’inspirer. Sécurisés et accessibles 24/7, nos espaces sont dotés de lumière naturelle favorable à votre épanouissement personnel, ils sont logés dans un immeuble haut standing au cœur d’un quartier d’affaires renommé.
+          </p>
+          <p className="text-muted-foreground mb-6">
+            Workzone, c’est également des événements organisés. Formation, workshop ou séminaire, il se passe toujours quelque chose à Workzone !
+          </p>
         </div>
       </div>
     </section>
